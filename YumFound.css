@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#000;
+    color:white;
+    margin: 0;
+    overflow-x: hidden;
+}
+.nav_logo{
+   font-size: 28px;
+   margin-left: -100px;
+   margin-bottom: 20px;
+}
+nav{
+    margin: 0%;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+    padding:20px 150px;
+    background:#000;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+
+ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    margin-top: 3px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    font-size: 23px;
+    
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn{
+    padding:10px 30px;
+    border:1px solid white;
+    border-radius: 20px;
+    background:transparent;
+    color:white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 1px;
+}
+.hero{
+    height:100vh;
+    background:url("img2.webp") center/cover;
+}
+
+.overlay{
+    height:100%;
+    background:rgba(0,0,0,.45);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.search-box{
+    width:600px;
+    display:flex;
+    margin-top:30px;
+    
+}
+#search_box{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+#icon{
+    background-color: transparent;
+    border: 1px solid transparent;
+    height: px;
+}
+.search-box input{
+    flex:1;
+    padding:15px;
+}
+
+.search-box button{
+    width:60px;
+}
+
+.buttons{
+    margin-top:20px;
+    display:flex;
+    gap:15px;
+}
+
+.buttons button{
+    padding:12px 25px;
+}
+
+.products{
+    text-align:center;
+    padding:80px;
+}
+
+.products img{
+    width:500px;
+    margin-top:30px;
+}
+
+.recipes{
+    padding:80px;
+}
+
+.cards{
+    display:flex;
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    background:#111;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+}
+
+.card h3,
+.card p{
+    padding:10px;
+}
+
+.card button{
+    margin:10px;
+    padding:10px 20px;
+}
+
+.community{
+    text-align:center;
+    padding:100px 20px;
+    background:url("footer-bg.jpg") center/cover;
+}
+
+.cta-btns{
+    margin-top:20px;
+}
+
+.cta-btns button{
+    padding:12px 25px;
+    margin:10px;
+}
+
+footer{
+    display:flex;
+    justify-content:space-around;
+    padding:60px;
+    background:#050505;
+}
