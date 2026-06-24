@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yum Food</title>
     <link rel="stylesheet" href="YumFound.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
 
@@ -37,22 +38,22 @@
             <div class="search-box">
                 <input type="text" id="search_box"
                     placeholder="Search for Recipes...">
-                <button id="icon">🔍</button>
+               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
 
             <div class="buttons">
-                <button>View Recipes</button>
-                <button>Create Recipes</button>
+                <button id="btn_1">View Recipes</button>
+                <button id="btn_2">Create Recipes</button>
             </div>
         </div>
     </section>
 
     <!-- Products -->
     <section class="products">
-        <h4>Our Products</h4>
-        <h2>Delicious Choices, Made Just for You</h2>
+        <h4 id="h4">Our Products</h4>
+        <h2 id="h2">Delicious Choices, Made Just for You</h2>
 
-        <img src="wrap.jpg" alt="">
+        <img src="pic4.avif" alt="">
     </section>
 
     <!-- Featured Recipes -->
@@ -62,21 +63,21 @@
 
         <div class="cards">
 
-            <div class="card">
+            <div class="card" id="card1">
                 <img src="pic1.jpg">
                 <h3>Paneer Butter Masala</h3>
                 <p>Rich and creamy dish.</p>
                 <button>View Recipe</button>
             </div>
 
-            <div class="card">
+            <div class="card" id="card2">
                 <img src="pic2.avif">
                 <h3>Matar Paneer</h3>
                 <p>Traditional Indian curry.</p>
                 <button>View Recipe</button>
             </div>
 
-            <div class="card">
+            <div class="card" id="card3">
                 <img src="pic3.webp">
                 <h3>Palak Paneer</h3>
                 <p>Healthy spinach curry.</p>
